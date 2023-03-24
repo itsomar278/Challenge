@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #c5c5c5;
+}
+.Container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Card
+{
+    border-top: #8132a3 solid;
+    border-top-width: 15px;
+    width: 250px;
+    height: 350px;
+    background-color: #eeeeee;
+    border-radius: 12px;
+}
+.Card .Image
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    align-items: center;
+}
+.Card .Image .Inner
+{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid white;
+
+}
+.Card .Image .Inner img
+{
+    width: 100%;
+}
+.Card .Info
+{
+    font-family: "Open Sans";
+    text-align: left;
+    padding: 10%;
+    overflow: hidden;
+}
+.Card .Info .Title
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+.Card .Info .Value
+{
+    font-size: 14px;
+    font-weight: 500;
+}
+.Card .Info .line
+{
+    background-color: #c5c5c5;
+    height: 1px;
+    color: #c5c5c5;
+    border: 0 none;
+}
